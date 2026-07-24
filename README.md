@@ -320,10 +320,10 @@ public class SoftwareDeveloper {
   <table>
     <tr>
       <td width="100%" style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff); margin-bottom: 20px;">
-        <h3 align="center">🏢 Qualcomm Inc.</h3>
+        <h3 align="center">🏢Shop Online New York</h3>
         <p align="center">
-          <strong>Graduate Student Researcher</strong><br>
-          <em>Mar 2025 - May 2025 | Remote</em>
+          <strong>Software Engineer Intern</strong><br>
+          <em>Nov 2025 - Feb 2026 | Remote</em>
         </p>
         <div align="left">
           <ul style="list-style-type: none; padding-left: 0;">
