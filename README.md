@@ -125,21 +125,24 @@ public class SoftwareDeveloper {
 <td style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff);">
 <h3 align="center">NutriSync</h3>
 <p align="center">
-<strong>Research Project</strong><br>
-<em>Mar 2025 - Present | Remote</em>
+<strong>Personal Project</strong><br>
 </p>
 <div align="left">
 <ul style="list-style-type: none; padding-left: 0;">
-<li>🤖 Developed a real-time vision-to-audio system enabling visually impaired users to navigate and interact with their environment</li>
-<li>🎯 Integrated LLaMA and Vision Transformer to achieve 85% accuracy in complex scene descriptions with only 300ms latency</li>
-<li>⚡ Enhanced mobile performance by 30% through ONNX quantization and CoreML optimization for Snapdragon platforms</li>
+<li>🍽️ Built an AI-powered recipe search agent using LangChain and LlamaIndex to enable natural-language querying over a recipe dataset.</li>
+<li>🔍 Indexed recipes into a vector store and exposed custom tools for ingredient-based search, cooking-time filtering, and nutrition lookups via an OpenAI GPT-3.5 agent.</li>
+<li>📊 Processed structured recipe data with Pandas to power calorie calculations and multi-criteria filtering (time, ingredients, category).</li>
+<li>🧠 Used a zero-shot ReAct agent architecture so the model dynamically decides which tool to call (search, nutrition, ingredients, or time filter) based on the user's query, rather than following a fixed pipeline.</li>
+<li>💾 Persisted the vector index to disk so it only needs to be built once and can be reloaded for fast repeat queries instead of re-indexing every run.</li>
 </ul>
 <h4>Tech Stack</h4>
 <div align="center">
-<img src="https://img.shields.io/badge/Swift-FA7343?style=flat&logo=swift&logoColor=white" alt="Swift"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/LLaMA-FF6F00?style=flat&logo=llama&logoColor=white" alt="LLaMA"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white" alt="LangChain"/>
+<img src="https://img.shields.io/badge/LlamaIndex-000000?style=flat&logo=meta&logoColor=white" alt="LlamaIndex"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white" alt="Google Colab"/>
 </div>
 <div align="right" style="margin-top: 10px;">
 <a href="https://github.com/joshishruti9/NutriSync">View Project →</a>
@@ -151,23 +154,30 @@ public class SoftwareDeveloper {
 <td style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff);">
 <h3 align="center">FocusMate</h3>
 <p align="center">
-<strong>Distributed Systems Project</strong><br>
+<strong>SAAS Project</strong><br>
 <em>Apr 2025 | Personal Project</em>
 </p>
 <div align="left">
 <ul style="list-style-type: none; padding-left: 0;">
-<li>⚡ Developed a scalable real-time analytics system handling 200+ e-commerce transactions per second</li>
-<li>🛠️ Integrated Spring Boot, Kafka, PostgreSQL, Redis, and Spark for efficient data ingestion, processing, and storage</li>
-<li>🚀 Reduced query latency by 40% while simulating 10M+ transactions with sub-200ms response times</li>
+<li>🏗️ Built FocusMate as four independently deployable microservices (API Gateway, User, Task, Shop/Rewards) in TypeScript/Express, each with its own MongoDB database via Mongoose.</li>
+<li>🔐 Implemented JWT-based authentication at the API Gateway plus Google OAuth login (google-auth-library) in the User Service, with unit tests that mock external calls using Jest.</li>
+<li>🔄 Designed cross-service communication so completing a task in Task Service triggers a real HTTP call to User Service to award reward points, redeemable in the Shop Service.</li>
+<li>🚀 Set up CI/CD with GitHub Actions — an orchestrator workflow triggers independent deployment jobs per service to Azure App Service on every push to main.</li>
+<li>🧪 Wrote integration tests with Jest, Supertest, and mongodb-memory-server to test real database behavior without needing a live MongoDB instance.</li>
 </ul>
 <h4>Tech Stack</h4>
 <div align="center">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white" alt="Spring Boot"/>
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white" alt="Kafka"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis"/>
-<img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white" alt="Apache Spark"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" alt="Express"/>
+<img src="https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white" alt="Angular"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white" alt="Mongoose"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/Google_OAuth-4285F4?style=flat&logo=google&logoColor=white" alt="Google OAuth"/>
+<img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" alt="Jest"/>
+<img src="https://img.shields.io/badge/Azure-0089D6?style=flat&logo=microsoftazure&logoColor=white" alt="Azure"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
 </div>
 <div align="right" style="margin-top: 10px;">
 <a href="https://github.com/joshishruti9/FocusMate">View Project →</a>
