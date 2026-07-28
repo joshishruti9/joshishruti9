@@ -69,22 +69,25 @@ public class SoftwareDeveloper {
 <td style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff);">
 <h3 align="center">Scalable Video Streaming Platform</h3>
 <p align="center">
-<strong>AI/ML Project</strong><br>
-<em>Jan 2024 - Present | Personal</em>
+<strong>Personal Project</strong><br>
 </p>
 <div align="left">
 <ul style="list-style-type: none; padding-left: 0;">
-<li>🎭 Developed an innovative platform combining emotion detection, storytelling, and social features using AI</li>
-<li>🤖 Achieved 95% accuracy in emotion detection using DeepFace CNN and GPT for story generation</li>
-<li>🔊 Implemented Azure Text-to-Speech for dynamic voice synthesis and emotional journey analytics</li>
+<li>🎥 Built a video streaming platform as three independent microservices — a REST-based User Service, a gRPC-only Video Service, and an API Gateway bridging them for browsers.</li>
+<li>🔐 Implemented a Strategy-pattern OAuth 2.0 framework with pluggable auth providers and stateless JWT verification with zero network calls per request.</li>
+<li>📦 Used gRPC with real client- and server-streaming RPCs for chunked video upload and playback, cutting wire payload size by ~35-45% vs. REST/JSON.</li>
+<li>⚡ Load-tested to 1,000+ concurrent connections with zero errors, and cut auth-check latency by ~88% (523ms → 61ms) by verifying tokens locally instead of over the network.</li>
+<li>🗄️ Gave each service its own isolated database, following a database-per-service pattern for independent scaling and deployability.</li>
 </ul>
 <h4>Tech Stack</h4>
 <div align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white" alt="Flask"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
-<img src="https://img.shields.io/badge/Azure-0089D6?style=flat&logo=microsoft-azure&logoColor=white" alt="Azure"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white" alt="Express"/>
+<img src="https://img.shields.io/badge/gRPC-4285F4?style=flat&logo=google&logoColor=white" alt="gRPC"/>
+<img src="https://img.shields.io/badge/Protocol_Buffers-4285F4?style=flat&logo=googlecloud&logoColor=white" alt="Protocol Buffers"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white" alt="SQLite"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+<img src="https://img.shields.io/badge/Passport.js-34E27A?style=flat&logo=passport&logoColor=white" alt="Passport.js"/>
 </div>
 <div align="right" style="margin-top: 10px;">
 <a href="https://github.com/joshishruti9/VideoStreamingPlatform">View Project →</a>
