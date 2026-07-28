@@ -41,29 +41,23 @@ public class SoftwareDeveloper {
   <h3 align="center" style="font-size: 1.6em; margin-bottom: 0.2em;">
     🏆 <span style="color:#2C9CCD; font-weight:bold;">Distributed API Rate Limiting Service</span>
   </h3>
-  <p align="center" style="font-size: 1.1em; margin-top: 0; margin-bottom: 0.2em;">
-    <span style="color:#FFD700; font-weight:bold;">1st Prize, Microsoft ML/AI Hackathon</span>
-  </p>
-  <div align="center" style="margin-bottom: 0.8em;">
-    <!-- <a href="https://www.linkedin.com/posts/saumya-mishra-a85430156_hackathon-ai-opensource-activity-7319936048128503808-j3bL?utm_source=share&utm_medium=member_desktop&rcm=ACoAACVwSQUB0puI-K9_gFg39SdKe-3WvdE_DVQ" target="_blank" style="text-decoration: none;">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" style="vertical-align: middle;"/>
-      <span style="font-size:0.95em; color:#0A66C2; font-weight:normal;">See LinkedIn post</span>
-    </a>-->
-  </div>
   <div align="left">
   <ul style="list-style-type: none; padding-left: 0;">
-  <li>🤖 Built an intelligent networking assistant that connects people through events using AI-powered matching</li>
-  <li>🏆 Won <strong>1st Prize</strong> at the Microsoft ML/AI Hackathon</li>
-  <li>🔍 Integrated with Luma, Meetup, and LinkedIn APIs for comprehensive profile aggregation and analysis</li>
-  <li>💡 Implemented NLP-powered insights and personalized recommendations for meaningful connections</li>
+  <li>🔍 Evaluated fixed window, sliding window, leaky bucket, and token bucket algorithms against REST API traffic patterns; selected token bucket for its constant O(1) memory per client and native burst tolerance.</li>
+  <li>⚛️ Implemented the token check-decrement-refill logic as an atomic Redis Lua script, using Redis's server-side clock (TIME) to eliminate clock-skew risk across distributed app instances.</li>
+  <li>🔑 Designed a collision-free Redis key schema (clientId:endpoint) and a dynamic configuration API allowing per-client, per-endpoint capacity and refill-rate updates without redeploys.</li>
+  <li>💡 Built a concurrency test using CountDownLatch to fire 200 simultaneous requests at a single bucket (capacity 100), verifying via atomic counters that the Lua script allowed exactly the configured limit with zero over-allocation under race conditions.</li>
+  <li>📊 Built a React dashboard polling live token counts per client/endpoint, giving visibility into rate-limit state for debugging and monitoring.</li>
   </ul>
   <h4>Tech Stack</h4>
   <div align="center">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" alt="Redis"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white" alt="Vite"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="TailwindCSS"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white" alt="Lua"/>
+  <img src="https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white" alt="JUnit5"/>
   </div>
   <div align="right" style="margin-top: 10px;">
   <a href="https://github.com/joshishruti9/RateLimiter">View Project →</a>
