@@ -100,20 +100,19 @@ public class SoftwareDeveloper {
 <h3 align="center">Movie Recommedation Service</h3>
 <p align="center">
 <strong>ML Project</strong><br>
-<em>Dec 2023 - Present | Research</em>
 </p>
 <div align="left">
 <ul style="list-style-type: none; padding-left: 0;">
-<li>🌐 Solved last-mile delivery optimization using advanced ML algorithms, reducing delivery times by 25%</li>
-<li>⚡ Implemented dynamic route recalculation based on real-time traffic and weather conditions</li>
-<li>📊 Achieved 15% reduction in fuel consumption through predictive analytics and route optimization</li>
+<li>🧮 Implemented user-based collaborative filtering from scratch with vectorized NumPy operations, computing cosine similarity between a target user and every other user in a single matrix-vector operation instead of pairwise loops. </li>
+<li>📊 Built a user-item rating matrix from the MovieLens dataset (~100K ratings across ~9,700 movies) with Pandas — merging ratings and movie metadata, then pivoting into the matrix collaborative filtering needs.</li>
+<li>🎯 Designed a k-nearest-neighbors rating predictor that ranks users by similarity, selects the top-k neighbors, and computes a similarity-weighted average of their ratings to predict how a user would rate an unseen movie.</li>
+<li>⚡ Reduced what would naively be an O(n²) pairwise similarity comparison into vectorized linear algebra (dot products and norms across the full matrix at once) — a meaningful performance-minded choice for a dataset this size.</li>
 </ul>
 <h4>Tech Stack</h4>
 <div align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter"/>
-<img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat&logo=scikit-learn&logoColor=white" alt="ML"/>
-<img src="https://img.shields.io/badge/LLaMA-FF6F00?style=flat&logo=llama&logoColor=white" alt="LLaMA"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white" alt="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white" alt="NumPy"/>
 </div>
 <div align="right" style="margin-top: 10px;">
 <a href="https://github.com/joshishruti9/MovieRecommenderSystem">View Project →</a>
@@ -194,15 +193,18 @@ public class SoftwareDeveloper {
 </p>
 <div align="left">
 <ul style="list-style-type: none; padding-left: 0;">
-<li>📚 Created a production-ready implementation of 23 GoF patterns to solve common enterprise architectural challenges</li>
-<li>🔧 Demonstrated pattern applications in microservices, event-driven systems, and distributed computing</li>
-<li>✅ Built comprehensive test suites and documentation to guide developers in selecting optimal patterns</li>
+<li>📰 Engineered linguistic and stylistic features for fake news classification — part-time-of-speech tagging with Stanford CoreNLP, Automated Readability Index scoring, and n-gram (bigram/trigram) extraction, feeding a Random Forest classifier trained on the labeled feature set.</li>
+<li>🌐 Built a web-scraping similarity checker (using Jsoup) that searches for related online articles and computes Jaccard similarity against a given article's content, as a signal for cross-referencing claims.</li>
+<li>🧹 Wrote a text preprocessing pipeline (stopword removal, tokenization) shared across every downstream feature extractor, so each feature module worked from consistently cleaned text.</li>
+</li>🔗 Orchestrated the full feature-engineering pipeline — preprocessing → similarity, POS, and readability feature extraction → structured output — across both the fake and real news datasets.</li>
 </ul>
 <h4>Tech Stack</h4>
 <div align="center">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
-<img src="https://img.shields.io/badge/JUnit-25A162?style=flat&logo=junit5&logoColor=white" alt="JUnit"/>
-<img src="https://img.shields.io/badge/Design_Patterns-FF6F00?style=flat&logo=java&logoColor=white" alt="Design Patterns"/>
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Weka-D5A021?style=flat&logo=apache&logoColor=white" alt="Weka"/>
+<img src="https://img.shields.io/badge/Stanford_NLP-8C1515?style=flat&logo=stanford&logoColor=white" alt="Stanford NLP"/>
+<img src="https://img.shields.io/badge/Jsoup-000000?style=flat&logo=java&logoColor=white" alt="Jsoup"/>
+<img src="https://img.shields.io/badge/Apache_Ant-A81C7D?style=flat&logo=apacheant&logoColor=white" alt="Apache Ant"/>
 </div>
 <div align="right" style="margin-top: 10px;">
 <a href="https://github.com/joshishruti9/FakeNewsDetection">View Project →</a>
