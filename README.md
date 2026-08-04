@@ -293,6 +293,9 @@ public class SoftwareDeveloper {
               </ul>
             </div>
           </details>
+          <div style="margin-top: 15px; text-align: center;">
+            <img src="https://img.shields.io/badge/Dean's_List-FFD700?style=flat&logo=academic-cap" alt="Dean's Honor Roll"/>
+          </div>
         </div>
       </td>
       <td width="50%" style="border-radius: 10px; padding: 25px; background: linear-gradient(to right, #f6f7f8, #ffffff); height: 100%; vertical-align: top;">
@@ -315,10 +318,6 @@ public class SoftwareDeveloper {
               </ul>
             </div>
           </details>
-          <div style="margin-top: 15px; text-align: center;">
-            <img src="https://img.shields.io/badge/Dean's_List-FFD700?style=flat&logo=academic-cap" alt="Dean's List"/>
-            <img src="https://img.shields.io/badge/Top_5%25-FF6B6B?style=flat&logo=star" alt="Top 5%"/>
-          </div>
         </div>
       </td>
     </tr>
@@ -352,6 +351,29 @@ public class SoftwareDeveloper {
         </div>
       </td>
     </tr>
+     <tr>
+      <td width="100%" style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff); margin-bottom: 20px;">
+        <h3 align="center">🏢Bilimetrix USA LLC</h3>
+        <p align="center">
+          <strong>Software Engineer Intern</strong><br>
+          <em>Nov 2025 - Feb 2026 | Remote</em>
+        </p>
+        <div align="left">
+          <ul style="list-style-type: none; padding-left: 0;">
+            <li>🤖 Designed HIPAA-compliant patient reporting service using ASP.NET and C#, reducing diagnosis time from 10 min to 5 min with 100% unit test coverage.</li>
+            <li>🎯 Resolved production defects through root cause analysis and component refactoring, improving application stability.</li>
+          </ul>
+          <div align="center" style="margin-top: 15px;">
+            <img src="https://img.shields.io/badge/Swift-FA7343?style=flat&logo=swift&logoColor=white" alt="Swift"/>
+            <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+            <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white" alt="PyTorch"/>
+            <img src="https://img.shields.io/badge/LLaMA-FF6F00?style=flat&logo=llama&logoColor=white" alt="LLaMA"/>
+            <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+            <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white" alt="AWS"/>
+          </div>
+        </div>
+      </td>
+    </tr>
     <tr>
       <td width="100%" style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff); margin-bottom: 20px;">
         <h3 align="center">🏢 Mastercard</h3>
@@ -364,8 +386,8 @@ public class SoftwareDeveloper {
             <li>📈 Designed and developed event-driven promotional systems using Java, React, Spring Boot, and Apache Kafka processing 250,000+ daily reward transactions with high availability and low latency.</li>
             <li>⏱️ Engineered a fault-tolerant event status reconciliation mechanism by introducing partial-failure classification and intelligent retry handling, reducing unnecessary retries by 40% while improving data consistency</li>
             <li>🔍 Led CI/CD automation using Jenkins and XLR, enabling test-gated deployments and reducing manual release overhead</li>
-            <li>🔍 Debugged and resolved production issues in a real-time LiveChat platform, improving system reliability and ensuring uninterrupted customer communication</li>
-            <li>🔍 Developed automated regression test suites for 5 microservices using Karate and Cypress, reducing regression defects.</li>
+            <li>🎯 Debugged and resolved production issues in a real-time LiveChat platform, improving system reliability and ensuring uninterrupted customer communication</li>
+            <li>🧪 Developed automated regression test suites for 5 microservices using Karate and Cypress, reducing regression defects.</li>
           </ul>
           <div align="center" style="margin-top: 15px;">
             <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
@@ -381,14 +403,14 @@ public class SoftwareDeveloper {
       <td width="100%" style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff); margin-bottom: 20px;">
         <h3 align="center">🏢 Accenture</h3>
         <p align="center">
-          <strong>Software Development Engineer</strong><br>
+          <strong>Associate Software Engineer</strong><br>
           <em>Dec 2020 - July 2022 | Pune, India</em>
         </p>
         <div align="left">
           <ul style="list-style-type: none; padding-left: 0;">
             <li>🚀 Built a stateless authentication service using Java, Spring Boot, RabbitMQ, Redis and JWT, supporting asynchronous OTP delivery for 10K+ users with 40 ms p99 latency.</li>
             <li>✅ Improved system observability by implementing Grafana dashboards and Prometheus monitoring, reducing production incident resolution time from 50 to 30 minutes.</li>
-            <li>Modernized legacy SOAP services into RESTful APIs, improving scalability, maintainability, and service interoperability.</li>
+            <li>🧮 Modernized legacy SOAP services into RESTful APIs, improving scalability, maintainability, and service interoperability.</li>
           </ul>
           <div align="center" style="margin-top: 15px;">
             <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white" alt="Jenkins"/>
