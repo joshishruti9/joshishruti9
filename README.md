@@ -273,6 +273,7 @@ public class SoftwareDeveloper {
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor=white" alt="Selenium"/>
   <img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit"/>
   <img src="https://img.shields.io/badge/Apache_JMeter-D22128?style=for-the-badge&logo=apache&logoColor=white" alt="JMeter"/>
+  </div>
 
 ## 📚 Education
 <div align="center">
@@ -359,7 +360,7 @@ public class SoftwareDeveloper {
         <h3 align="center">🏢Bilimetrix USA LLC</h3>
         <p align="center">
           <strong>Software Engineer Intern</strong><br>
-          <em>Nov 2025 - Feb 2026 | Remote</em>
+          <em>Jun 2025 - Aug 2026 | Remote</em>
         </p>
         <div align="left">
           <ul style="list-style-type: none; padding-left: 0;">
@@ -395,9 +396,8 @@ public class SoftwareDeveloper {
             <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot"/>
             <img src="https://img.shields.io/badge/Microservices-FF6F00?style=flat&logo=kubernetes&logoColor=white" alt="Microservices"/>
             <img src="https://img.shields.io/badge/JMeter-D22128?style=flat&logo=apache&logoColor=white" alt="JMeter"/>
-            
           </div>
-        </div>
+          </div>
       </td>
     </tr>
     <tr>
