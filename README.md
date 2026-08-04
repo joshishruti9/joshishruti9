@@ -214,22 +214,23 @@ public class SoftwareDeveloper {
 </tr>
 <tr>
 <td style="border-radius: 10px; padding: 20px; background: linear-gradient(to right, #f6f7f8, #ffffff);">
-<h3 align="center">TypeScript Event Management System</h3>
+<h3 align="center">PeopleSuite_SAAS_Platform</h3>
 <p align="center">
 <strong>Technical Challenge</strong><br>
 <em>Feb 2024 | Project</em>
 </p>
 <div align="left">
 <ul style="list-style-type: none; padding-left: 0;">
-<li>🎯 Engineered a scalable RSVP system handling concurrent user responses with optimized performance</li>
-<li>✨ Implemented domain-driven design with clean architecture principles for maintainable code</li>
-<li>✅ Achieved 100% test coverage using Jest, with comprehensive integration and unit tests</li>
+<li>🏢 Built PeopleSuite, a cloud-native employee management SaaS with Java Spring Boot microservices, AWS DynamoDB and S3, and Kubernetes-orchestrated deployment.</li>
 </ul>
 <h4>Tech Stack</h4>
 <div align="center">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=jest&logoColor=white" alt="Jest"/>
-<img src="https://img.shields.io/badge/Clean_Code-00ACC1?style=flat&logo=javascript&logoColor=white" alt="Clean Code"/>
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white" alt="Spring Boot"/>
+<img src="https://img.shields.io/badge/AWS_DynamoDB-4053D6?style=flat&logo=amazondynamodb&logoColor=white" alt="AWS DynamoDB"/>
+<img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazons3&logoColor=white" alt="AWS S3"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" alt="Kubernetes"/>
 </div>
 <div align="right" style="margin-top: 10px;">
 <a href="https://github.com/joshishruti9/Coding-Challenge">View Project →</a>
@@ -298,7 +299,7 @@ public class SoftwareDeveloper {
         <div style="display: flex; flex-direction: column; height: 100%;">
           <h3 align="center" style="margin: 0 0 15px 0;">🎓 Pune University</h3>
           <p align="center" style="margin: 0 0 15px 0;">
-            <strong>B.Tech in Computer Science</strong><br>
+            <strong>B.E in Information Technology</strong><br>
             <em>GPA: 8.82/10 | 2016 - 2020</em><br>
             <img src="https://img.shields.io/badge/India-green?style=flat&logo=location" alt="Location"/>
           </p>
@@ -336,9 +337,9 @@ public class SoftwareDeveloper {
         </p>
         <div align="left">
           <ul style="list-style-type: none; padding-left: 0;">
-            <li>🤖 Built multimodal AI system for visually impaired using Snapdragon hardware</li>
-            <li>🎯 Achieved <strong>85% captioning accuracy</strong> with <strong>300ms inference latency</strong></li>
-            <li>⚡ Optimized model inference by <strong>30%</strong> using ONNX quantization and CoreML</li>
+            <li>🤖 Designed and implemented an <strong>RBAC-enabled</strong> order tracking system, integrating secure REST APIs to provide real-time order updates for <strong>1,000+</strong> users.</li>
+            <li>🎯 Reduced initial page load time by <strong>25%</strong> via lazy loading and optimized Redux state management, improving user experience.</li>
+            <li>⚡ Accelerated feature delivery by <strong>2 weeks</strong> using <strong>GitHub Copilot</strong> while validating business logic, edge cases and code quality.</li>
           </ul>
           <div align="center" style="margin-top: 15px;">
             <img src="https://img.shields.io/badge/Swift-FA7343?style=flat&logo=swift&logoColor=white" alt="Swift"/>
@@ -360,9 +361,11 @@ public class SoftwareDeveloper {
         </p>
         <div align="left">
           <ul style="list-style-type: none; padding-left: 0;">
-            <li>📈 Improved product quality by <strong>45%</strong> through load and performance testing automation</li>
-            <li>⏱️ Reduced testing time by <strong>25%</strong> using ML-based test prioritization</li>
-            <li>🔍 Implemented flaky test detection using Isolation Forest algorithm</li>
+            <li>📈 Designed and developed event-driven promotional systems using Java, React, Spring Boot, and Apache Kafka processing 250,000+ daily reward transactions with high availability and low latency.</li>
+            <li>⏱️ Engineered a fault-tolerant event status reconciliation mechanism by introducing partial-failure classification and intelligent retry handling, reducing unnecessary retries by 40% while improving data consistency</li>
+            <li>🔍 Led CI/CD automation using Jenkins and XLR, enabling test-gated deployments and reducing manual release overhead</li>
+            <li>🔍 Debugged and resolved production issues in a real-time LiveChat platform, improving system reliability and ensuring uninterrupted customer communication</li>
+            <li>🔍 Developed automated regression test suites for 5 microservices using Karate and Cypress, reducing regression defects.</li>
           </ul>
           <div align="center" style="margin-top: 15px;">
             <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white" alt="Java"/>
@@ -383,8 +386,9 @@ public class SoftwareDeveloper {
         </p>
         <div align="left">
           <ul style="list-style-type: none; padding-left: 0;">
-            <li>🚀 Increased deployment frequency by <strong>20%</strong> through CI/CD pipeline implementation</li>
-            <li>✅ Reduced critical errors by <strong>25%</strong> through comprehensive backend testing</li>
+            <li>🚀 Built a stateless authentication service using Java, Spring Boot, RabbitMQ, Redis and JWT, supporting asynchronous OTP delivery for 10K+ users with 40 ms p99 latency.</li>
+            <li>✅ Improved system observability by implementing Grafana dashboards and Prometheus monitoring, reducing production incident resolution time from 50 to 30 minutes.</li>
+            <li>Modernized legacy SOAP services into RESTful APIs, improving scalability, maintainability, and service interoperability.</li>
           </ul>
           <div align="center" style="margin-top: 15px;">
             <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white" alt="Jenkins"/>
@@ -400,9 +404,6 @@ public class SoftwareDeveloper {
 
 ## 🔗 Connect With Me
 <div align="center">
-  <a href="https://leetcode.com/u/mishrasaumya511/" target="_blank">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" alt="LeetCode"/>
-  </a>
   <a href="https://github.com/joshishruti9" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
